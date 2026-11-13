@@ -1,0 +1,5 @@
+?   	github.com/liuhaogui/kline-api/cmd/kline-api	[no test files]
+ok  	github.com/liuhaogui/kline-api/internal/config	1.815s
+ok  	github.com/liuhaogui/kline-api/internal/httpapi	3.291s
+ok  	github.com/liuhaogui/kline-api/internal/kline	4.191s
+?   	github.com/liuhaogui/kline-api/internal/response	[no test files]

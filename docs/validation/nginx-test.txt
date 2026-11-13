@@ -1,0 +1,2 @@
+nginx: the configuration file <temporary-prefix>/nginx.conf syntax is ok
+nginx: configuration file <temporary-prefix>/nginx.conf test is successful

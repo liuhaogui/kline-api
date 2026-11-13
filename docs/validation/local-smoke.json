@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "check": "nginx-health",
+      "body": {
+        "code": 0,
+        "status": "ok",
+        "version": "dev"
+      },
+      "passed": true
+    },
+    {
+      "check": "history",
+      "code": 500,
+      "items": 0,
+      "message": "\u83b7\u53d6K\u7ebf\u5931\u8d25",
+      "passed": false
+    },
+    {
+      "check": "search",
+      "code": 500,
+      "items": 0,
+      "message": "\u641c\u7d22\u5931\u8d25",
+      "passed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+/bin/
+/dist/
+/coverage.out
+*.log
+*.db
+*.sqlite*
+*.pem
+*.key
+.idea/
+.vscode/

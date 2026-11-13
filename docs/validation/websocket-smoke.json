@@ -1,0 +1,11 @@
+{
+  "scope": "Actual built standalone process; upstream TradingView, no mocked responses",
+  "messages": [
+    {
+      "type": "subscribed",
+      "symbol": "TVC:USOIL"
+    }
+  ],
+  "upgraded": true,
+  "status": "no_live_bar_within_15s"
+}

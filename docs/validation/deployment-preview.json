@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-13",
+  "scope": "Standalone Linux amd64 binary in an isolated loopback deployment preview; production process and configuration unchanged",
+  "version": "v0.1.0",
+  "live_history": [
+    {
+      "symbol": "TVC:USOIL",
+      "session": "",
+      "bars": 2,
+      "passed": true
+    },
+    {
+      "symbol": "OANDA:XAUUSD",
+      "session": "",
+      "bars": 2,
+      "passed": true
+    },
+    {
+      "symbol": "HKEX:700",
+      "session": "",
+      "bars": 2,
+      "passed": true
+    },
+    {
+      "symbol": "NASDAQ:AAPL",
+      "session": "regular",
+      "bars": 2,
+      "passed": true
+    },
+    {
+      "symbol": "NASDAQ:AAPL",
+      "session": "extended",
+      "bars": 2,
+      "passed": true
+    }
+  ],
+  "websocket": {
+    "connections": 6,
+    "subscribed": 6,
+    "received_bar": 6,
+    "passed": true
+  },
+  "search": {
+    "code": 0,
+    "items": 2,
+    "passed": true
+  },
+  "preview_stopped": true,
+  "temporary_files_removed": true
+}

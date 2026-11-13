@@ -1,0 +1,26 @@
+[Unit]
+Description=Standalone Kline API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=kline-api
+Group=kline-api
+WorkingDirectory=/opt/kline-api
+Environment=LISTEN_ADDR=127.0.0.1:8082
+EnvironmentFile=-/etc/kline-api.env
+ExecStart=/opt/kline-api/kline-api
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+LimitNOFILE=65536
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
